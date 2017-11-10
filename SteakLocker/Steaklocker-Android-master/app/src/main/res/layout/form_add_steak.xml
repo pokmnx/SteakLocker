@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbarStyle="outsideOverlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/AppTheme"
+
+    >
+
+
+
+    <!--com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cut of Meat"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        app:floatingLabel="highlight"
+        android:imeOptions="actionNext"
+        android:singleLine="true" /-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cut of Meat"
+        android:textSize="18dp"
+        android:labelFor="@+id/objects"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        />
+    <Spinner
+        android:id="@+id/objects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nickname (Optional)"
+        app:floatingLabel="highlight"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        android:imeOptions="actionNext"
+        android:singleLine="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (Lbs)"
+        app:floatingLabel="highlight"
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price / Lbs"
+        app:floatingLabel="highlight"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vendor"
+        android:textSize="18dp"
+        android:labelFor="@+id/objects"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        />
+    <Spinner
+        android:id="@+id/vendors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"/>
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/customVendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Custom Vendor Name"
+        app:floatingLabel="highlight"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:visibility="gone"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Days to Age"
+        app:floatingLabel="highlight"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/form_horz_margin"
+        android:layout_marginRight="@dimen/form_horz_margin"
+        android:layout_marginTop="@dimen/form_vert_margin"
+        android:layout_marginBottom="@dimen/form_vert_margin"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+
+    <Button android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:layout_marginTop="10dp"
+        android:background="#ffff7200"
+
+        android:textColor="#ffffffff" />
+</LinearLayout>
+</ScrollView>

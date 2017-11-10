@@ -1,0 +1,221 @@
+#ela-dashboard {
+    min-height: 400px;
+}
+#ela-dashboard .tabcontainer {
+    margin-top: 0;
+}
+#ela-dashboard .tabcontainer .active_tab_content {
+    border: none !important;
+}
+#ela-dashboard .tabcontainer .tab_titles .tab.active_tab {
+    border-color: #43484d;
+}
+#ela-dashboard .tab_content {
+    padding: 10px;
+}
+
+#ela-dashboard .tab_titles .tab { width: 50%; max-width: 200px;}
+
+#ela-dashboard .device {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 40px;
+    padding: 30px 20px 10px 20px;
+    position:relative;
+}
+#ela-dashboard .device .unlink {
+    display: none;
+}
+#ela-dashboard .device:hover .unlink {
+    display: block;
+}
+
+#ela-dashboard #my-orders,
+#ela-dashboard .um-account-main {
+    float: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.um-header {
+    border: none !important;
+}
+.um-profile-photo-overlay {
+    background: transparent !important;
+}
+#ela-dashboard .um-avatar,
+.um-avatar-uploaded {
+    max-width: 190px;
+    max-height: 190px;
+}
+
+.um-account-heading,
+.um-account-profile-link,
+.um-profile-edit {
+    display: none !important;
+}
+
+.ela-device-images {
+    position: relative;
+    padding: 0 0 10px 0px;
+}
+.ela-device-images .device-image {
+    max-width: 100px;
+}
+.ela-device-images .device-icon {
+    height: 51px;
+    width: 51px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#ela-dashboard .device h1 {
+    margin-top: 0;
+}
+
+.device .data-point {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.device .data-point .value {
+    position: relative;
+    display: inline-block;
+}
+.device .data-point .value span {
+    font-size: 60px;
+    line-height: 60px;
+    height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -2.3px;
+    text-align: center;
+    color: #43484d;
+    display: inline-block;
+}
+.device .data-point .value .sup {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #43484d;
+    vertical-align: top;
+    position: absolute;
+    top: 5px;
+    display: inline-block;
+    width: 20px;
+    right: -25px;
+}
+
+.device .data-point .value .status-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    background: #ccc;
+}
+.device .data-point .value .status-dot.good {
+    background: #7fc65b;
+}
+.device .data-point .value .status-dot.bad {
+    background: #c64f2b;
+}
+
+
+.device .data-point .suffix {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #43484d;
+}
+.device .last-sync { height: 30px; }
+.device .last-sync >div {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 27px;
+    height: 27px;
+    letter-spacing: normal;
+    text-align: right;
+    color: #43484d;
+    display: inline-block;
+}
+.device .expand,
+.device .shrink {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #020000;
+}
+.device .row {
+    margin-bottom: 0;
+}
+.device .expand .av-icon-char,
+.device .shrink .av-icon-char{
+    color: #020000;
+}
+.device .shrink,
+.modal .device .expand {
+    display: none;
+}
+.device .expand,
+.modal .device .shrink {
+    display: block;
+}
+
+.device .measurements {
+    display: none;
+}
+.modal .device .measurements {
+    display: block;
+}
+.modal .device .measurements th {
+    border-width: 0 0 2px 0;
+}
+.modal .device .measurements td {
+    border-width: 1px 0 0 0;
+}
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    #user-info {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+
+}

@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/measurement_graph_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_gravity="center|top"
+    tools:context="com.steaklocker.steaklocker.ReportGraph">
+
+
+
+    <TextView
+        android:id="@+id/reportLockerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="Locker 1" />
+
+    <TextView
+        android:id="@+id/reportTimeWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Last 30 Days" />
+
+    <com.steaklocker.steaklocker.ProgressWheel
+        android:id="@+id/reportProgressWheel"
+        android:layout_height="230dp"
+        android:layout_width="230dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/reportGraphTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="Average" />
+
+        <TextView
+            android:id="@+id/reportGraphValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:text="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reportStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="360dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="" />
+
+    <Button android:id="@+id/btnSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="425dp"
+        android:background="#ffff7200"
+        android:layout_gravity="bottom"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

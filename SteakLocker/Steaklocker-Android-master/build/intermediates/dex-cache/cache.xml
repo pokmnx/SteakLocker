@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.parse/parseui-widget-android/0.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="76d7e619a84e1c57ad7b153ba84b1213f8ff9ef1">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.parse-parseui-widget-android-0.0.1_75093c816554bc8e9374855d0b4c9af60be9b9c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_a6feb7a153f58b263c6885dc4d89bd52e9164e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_0d9e859dfbf1d31c30058ee0f3b764f580325f21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/libs/android-query.0.26.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa997823bc89263500714864ff136de1e6025b4e">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-query.0.26.7_059b0060e43e67273b1bb9acbeaeb9b7dfe72873/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/Steaklocker-Android-master/blinkup_sdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3d5ee57b0d4085c640723b5f368aded6bbc4e206">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/4/Steaklocker-Android-master-blinkup_sdk-unspecified_e50b87f09218b97a0bf9ee9224f6783b57dd456f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.1_6b2138f1185a9a56e3c5c947bc24442736f22d65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26424233c1eec3a61981ac77e77d0ca3a8c118fa">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rengwuxian.materialedittext-library-1.8.2_cad8945a0c350c645eeb89fa77395e335e35e4e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/Steaklocker-Android-master/blinkup_sdk/unspecified/jars/libs/blinkup_library.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="700611363f01a863786f0ac440c24addd643ec0d">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/8/blinkup_library_3f6b30c208f4f247dffbebcb765f66420755fbcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.wrapp.floatlabelededittext/library/0.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wrapp.floatlabelededittext-library-0.0.6_7bb2eab1b0a3439b60ced80eeb02258168238051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_59a384108ac41904723e48a5b385426a1a1e57ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.2_baef6722ad0ed4d0576a878f29279c1782a77c80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_88634ba4d396597938975b2ade1ae9111a08ac87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_4f9d7d5fccb26b53dd4023e98144a0bcaa2db9de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_89a28f2532bacabe1e3432016bf735755399afe1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_abf87012bfa585b3cd1a6016cb4ba49e15bd2e4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.parse/parse-android/1.15.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d32d3e9a67d6cbe7271a583c9e6662b82e7f256a">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.parse-parse-android-1.15.6_e2fe886fe23bdb9000644cea6ad2d6791f233e5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.0/5c43618ae2e514637c58474e9e9663c8f054b72f/realm-annotations-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5c43618ae2e514637c58474e9e9663c8f054b72f">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.3.0_09627f4bfac4e14947a8ee615d481d7118e22698/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e724073d032731be77fad0f993e2970fb4429e3a">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jpardogo.materialtabstrip-library-1.0.8_c3f9e37f357a4ebd9361a3005c9add251cb1a080/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_475afdc29c8d500283d897ee4c9fce67a0c06847/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_949fc2eb727ff48552c8fdfe8c10f8e40283c0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d483779dc728392fefecb9a9650d01bac9e04d3b">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-2.3.0_5f77ed42157bd705252ebece9140abf00fba17ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.6.0_790d0120dc4a256ce2fe92b530ab0f647366656e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.parse/parsefacebookutils-v4-android/1.10.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="27521d0efb1754db5f7c940ba06b00a4dfa1958f">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.parse-parsefacebookutils-v4-android-1.10.4_13d9c4f6a9c0f51122777f7117481560dc7df0f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/de.keyboardsurfer.android.widget/crouton/1.8.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.keyboardsurfer.android.widget-crouton-1.8.5_373035d45cc76809229f92447ca0119cc4492f95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_d7fa58c35752415ca5a6f1b9dfd36d9280e8d4cf/classes.dex" />
+    </item>
+
+</items>

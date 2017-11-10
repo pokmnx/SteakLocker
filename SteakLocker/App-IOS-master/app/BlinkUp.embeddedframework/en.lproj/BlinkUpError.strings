@@ -1,0 +1,26 @@
+/* Launching the BlinkUp for the custom method failed due to a bad flash packet */
+"BadFlashPacket" = "Invalid flash packet";
+
+/* During an API call, the server responded with an error message */
+"ServerRepondedWithError" = "Server Responded with Error";
+
+/* No comment provided by engineer. */
+"BadPlanId" = "Valid planID not found";
+
+/* No comment provided by engineer. */
+"BadSetupToken" = "Valid setup token not found";
+
+/* The SSID presented to perform a BlinkUp with was nil or empty */
+"EmptySsid" = "SSID was empty";
+
+/* No comment provided by engineer. */
+"FailedGettingPlanIdFromServer" = "BlinkUp failed as a planId could not be acquired from the server";
+
+/* No comment provided by engineer. */
+"NetworkErrorDuringImpPoll" = "Network Error while polling imp status";
+
+/* Did not save password from saveConfig on a BUWifiConfig */
+"SaveWifiConfigPasswordError" = "The saveConfig method was called, however the wifi Config is set to used the already saved password";
+
+/* No comment provided by engineer. */
+"SetupTokenFailure" = "Failure to acquire setup token.";

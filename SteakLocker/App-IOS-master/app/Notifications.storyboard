@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notifications View Controller-->
+        <scene sceneID="3PJ-Kx-keX">
+            <objects>
+                <viewController storyboardIdentifier="Notifications" id="Qff-2y-mHQ" customClass="NotificationsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rwz-0t-pmW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hku-72-9dq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ghz-At-jYt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notificationsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="MM8-jd-eoJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-hN-Ipv">
+                                <rect key="frame" x="327" y="28" width="32" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButtonTapped:" destination="Qff-2y-mHQ" eventType="touchUpInside" id="jLh-ec-u5E"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riG-mR-nvh">
+                                <rect key="frame" x="16" y="495.5" width="343" height="76.5"/>
+                                <string key="text">Allowing notifications lets Steak Locker keep you posted on important information like inventory tracking and any temperature or humidty issues that require your attention.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aec-Ks-SB6">
+                                <rect key="frame" x="58" y="594.5" width="258" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.44705882352941173" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Enable Notifications">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="enableNotificationsButtonTapped:" destination="Qff-2y-mHQ" eventType="touchUpInside" id="Lfv-ST-9KR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable notifications?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5U-hm-o1z">
+                                <rect key="frame" x="16" y="453.5" width="343" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pF5-hN-Ipv" firstAttribute="trailing" secondItem="Ghz-At-jYt" secondAttribute="trailingMargin" id="08K-Gb-8QE"/>
+                            <constraint firstItem="riG-mR-nvh" firstAttribute="trailing" secondItem="pF5-hN-Ipv" secondAttribute="trailing" id="17b-87-VAf"/>
+                            <constraint firstItem="riG-mR-nvh" firstAttribute="centerX" secondItem="aec-Ks-SB6" secondAttribute="centerX" id="3WO-H5-wb3"/>
+                            <constraint firstItem="riG-mR-nvh" firstAttribute="centerY" secondItem="Ghz-At-jYt" secondAttribute="centerY" multiplier="1.6" id="4eO-xq-Mg0"/>
+                            <constraint firstItem="pF5-hN-Ipv" firstAttribute="top" secondItem="rwz-0t-pmW" secondAttribute="bottom" constant="8" id="Duc-v7-L8F"/>
+                            <constraint firstItem="aec-Ks-SB6" firstAttribute="centerY" secondItem="Ghz-At-jYt" secondAttribute="centerY" multiplier="1.85" id="Gzg-fj-XHt"/>
+                            <constraint firstItem="MM8-jd-eoJ" firstAttribute="top" secondItem="Ghz-At-jYt" secondAttribute="top" id="PrI-gz-1dI"/>
+                            <constraint firstItem="Hku-72-9dq" firstAttribute="top" secondItem="MM8-jd-eoJ" secondAttribute="bottom" id="Ptb-r2-afZ"/>
+                            <constraint firstItem="MM8-jd-eoJ" firstAttribute="leading" secondItem="Ghz-At-jYt" secondAttribute="leading" id="Q7x-Ii-iVI"/>
+                            <constraint firstItem="aec-Ks-SB6" firstAttribute="centerX" secondItem="Ghz-At-jYt" secondAttribute="centerX" id="QFX-vI-MO2"/>
+                            <constraint firstItem="j5U-hm-o1z" firstAttribute="centerY" secondItem="Ghz-At-jYt" secondAttribute="centerY" multiplier="1.4" id="a9s-vJ-DHk"/>
+                            <constraint firstItem="j5U-hm-o1z" firstAttribute="leading" secondItem="riG-mR-nvh" secondAttribute="leading" id="jJL-SX-nOp"/>
+                            <constraint firstAttribute="trailing" secondItem="MM8-jd-eoJ" secondAttribute="trailing" id="pUI-dI-UYy"/>
+                            <constraint firstItem="aec-Ks-SB6" firstAttribute="height" secondItem="Ghz-At-jYt" secondAttribute="height" multiplier="0.06747" id="pa4-Ae-ZOM"/>
+                            <constraint firstItem="aec-Ks-SB6" firstAttribute="width" secondItem="Ghz-At-jYt" secondAttribute="width" multiplier="0.688" id="uuI-KX-dWC"/>
+                            <constraint firstItem="j5U-hm-o1z" firstAttribute="trailing" secondItem="riG-mR-nvh" secondAttribute="trailing" id="zuy-qb-O9x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="enableNotificationsButton" destination="aec-Ks-SB6" id="c19-Q5-d8r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IwG-Fy-S4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151.19999999999999" y="75.112443778110944"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="notificationsBackground" width="375" height="667"/>
+    </resources>
+</document>

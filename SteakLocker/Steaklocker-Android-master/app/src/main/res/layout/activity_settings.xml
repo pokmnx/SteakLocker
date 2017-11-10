@@ -1,0 +1,145 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.steaklocker.steaklocker.SettingsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lockers"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lockerList"
+            android:orientation="vertical" >
+
+        </TableLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Unit"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/settingTempUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/temperatureUnits"
+        android:prompt="@string/temperatureUnitPrompt"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aging Type"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/settingAgingType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/agingTypeOptions"
+        android:prompt="@string/agingTypePrompt"
+        android:padding="5dp"/>
+
+
+
+    <TextView
+        android:id="@+id/settingTemperatureLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/settingTemperatureDryAging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/userTemperaturePrompt"
+        android:padding="5dp"/>
+    <Spinner
+        android:id="@+id/settingTemperatureCharcuterie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/userTemperaturePrompt"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/settingHumidityLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/settingHumidityDryAging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/userHumidityPrompt"
+        android:padding="5dp"/>
+    <Spinner
+        android:id="@+id/settingHumidityCharcuterie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/userHumidityPrompt"
+        android:padding="5dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts and Notifications"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/settingNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/alertsNotificationOptions"
+        android:prompt="@string/alertsNotificationOptionPrompt"
+        android:padding="5dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Settings"
+        android:id="@+id/buttonSettingsSave"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff7200"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="50dp" />
+    </LinearLayout>
+</ScrollView>

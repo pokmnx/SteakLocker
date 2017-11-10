@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+.user.ini
+error_log
+php.ini

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="315">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733.0"/>
+    </dependencies>
+    <scenes>
+        <!--class Prefix:identifier View Controller-->
+        <scene sceneID="314">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="315" sceneMemberID="viewController" navigationBarHidden="YES" isDesignatedEntryPoint="YES" storyboardIdentifier="navController" restorationIdentifier="navController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="318">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="336" kind="relationship" relationship="rootViewController" id="919"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="319" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="2"/>
+        </scene>
+        <scene sceneID="335">
+            <objects>
+                <viewController id="336" sceneMemberID="viewController" storyboardIdentifier="SetupStart" customClass="SetupStartController">
+                    <view key="view" contentMode="scaleToFill" id="337">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="346" fixedFrame="YES" image="Bull.png">
+                                <rect key="frame" x="110" y="70" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Setup" lineBreakMode="tailTruncation" id="358" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO">
+                                <rect key="frame" x="50" y="200" width="220" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" id="359" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO" numberOfLines="1" adjustsLetterSpacingToFitWidth="NO" text="Welcome to Steak Locker.">
+                                <rect key="frame" x="20" y="250" width="280" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" id="362" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO" numberOfLines="1" adjustsLetterSpacingToFitWidth="NO" text="Let’s get ready to setup your new locker.">
+                                <rect key="frame" x="20" y="275" width="280" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="371" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <state key="normal" title="Let's Get Started">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <connections/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="384" kind="push" id="393" identifier="segueWifi"/>
+                        <outlet property="btnNext" destination="371" id="name-outlet-371"/>
+                    </connections>
+                    <navigationItem title="Title" id="741" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="338" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="657"/>
+        </scene>
+        <scene sceneID="383">
+            <objects>
+                <viewController id="384" sceneMemberID="viewController" customClass="SetupWifiController" storyboardIdentifier="SetupWifi">
+                    <view key="view" contentMode="scaleToFill" id="385">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="388" fixedFrame="YES" image="Setup-Wifi.png">
+                                <rect key="frame" x="110" y="70" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select WiFi" lineBreakMode="tailTruncation" id="389" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO">
+                                <rect key="frame" x="50" y="200" width="220" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="392" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" id="453" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO" numberOfLines="1" adjustsLetterSpacingToFitWidth="NO" text="">
+                                <rect key="frame" x="20" y="250" width="280" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="" borderStyle="none" minimumFontSize="17" id="462" fixedFrame="YES" placeholder="Network Name" textAlignment="left">
+                                <rect key="frame" x="50" y="250" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="" borderStyle="none" minimumFontSize="17" id="463" fixedFrame="YES" placeholder="Password If Required" textAlignment="left">
+                                <rect key="frame" x="50" y="300" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="default" secureTextEntry="YES"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="btnNext" destination="392" id="name-outlet-392"/>
+                        <segue destination="415" kind="push" id="444" identifier="segueSync"/>
+                        <outlet property="msg" destination="453" id="name-outlet-453"/>
+                        <outlet property="inputNetwork" destination="462" id="name-outlet-462"/>
+                        <outlet property="inputPassword" destination="463" id="name-outlet-463"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="386" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="655"/>
+        </scene>
+        <scene sceneID="414">
+            <objects>
+                <viewController id="415" sceneMemberID="viewController" customClass="SetupSyncController" storyboardIdentifier="SetupSync">
+                    <view key="view" contentMode="scaleToFill" id="416">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="419" fixedFrame="YES" image="Setup-Wifi.png">
+                                <rect key="frame" x="110" y="70" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sync Device" lineBreakMode="tailTruncation" id="420" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO">
+                                <rect key="frame" x="50" y="200" width="220" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" id="421" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO" numberOfLines="5" adjustsLetterSpacingToFitWidth="NO">
+                                <rect key="frame" x="20" y="250" width="280" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <string key="text">Great now let’s sync your device to your new Steak Locker! After you click  the “Sync” point your devices screen to the LED light on your locker and wait for the light to blink green.</string>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="423" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="424" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="350" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <state key="normal" title="Sync Device">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="btnSync" destination="424" id="name-outlet-424"/>
+                        <outlet property="btnNext" destination="423" id="name-outlet-423"/>
+                        <segue destination="529" kind="push" id="537" identifier="segueDone"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="417" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="657"/>
+        </scene>
+        <scene sceneID="528">
+            <objects>
+                <viewController id="529" sceneMemberID="viewController" customClass="SetupCompleteController" storyboardIdentifier="SetupComplete">
+                    <view key="view" contentMode="scaleToFill" id="530">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="533" fixedFrame="YES" image="SetupComlete.png">
+                                <rect key="frame" x="110" y="70" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Complete!" lineBreakMode="tailTruncation" id="534" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO">
+                                <rect key="frame" x="50" y="200" width="220" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" id="535" fixedFrame="YES" textAlignment="center" baselineAdjustment="alignCenters" minimumFontSize="18" opaque="NO" numberOfLines="2" adjustsLetterSpacingToFitWidth="NO" text="Your Steak Locker is now successfully synced to your device!">
+                                <rect key="frame" x="20" y="250" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="536" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <state key="normal" title="Take me to my dashboard">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="btnNext" destination="536" id="name-outlet-536"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="531" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1318" y="659"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="LoginHeader-568h.png" width="640" height="350"/>
+        <image name="TextField-568h.png" width="540" height="80"/>
+        <image name="Line-568h.png" width="630" height="1"/>
+        <image name="LoginHeaderLogo-568h.png" width="436" height="100"/>
+        <image name="LoginHeaderLogoBlack-568h@2x" width="436" height="100"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Icon.png" width="114" height="114"/>
+        <image name="Icon-Small-40.png" width="80" height="80"/>
+        <image name="Bull.png" width="389" height="390"/>
+        <image name="Setup-Wifi.png" width="206" height="206"/>
+        <image name="Icon-Email.png" width="100" height="100"/>
+        <image name="Icon-Pass.png" width="100" height="100"/>
+        <image name="Icon-Person.png" width="100" height="100"/>
+        <image name="Icon-Wifi.png" width="100" height="100"/>
+        <image name="SetupComlete.png" width="206" height="206"/>
+        <image name="DashboardDefault.png" width="640" height="600"/>
+        <image name="DownArrow.png" width="72" height="38"/>
+        <image name="DownArrow-568h.png" width="72" height="38"/>
+        <image name="Steak.png" width="247" height="237"/>
+        <image name="SteakFull.png" width="640" height="480"/>
+        <image name="UpArrow-568h.png" width="92" height="92"/>
+        <image name="Components/BTProgressHUD/error.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/error_7.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/success.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/success_7.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/xamarin.png" width="28" height="28"/>
+        <image name="MenuIconDashboard-568h.png" width="100" height="100"/>
+        <image name="MenuIconProfile-568h.png" width="100" height="100"/>
+        <image name="MenuIconSettings-568h.png" width="100" height="100"/>
+        <image name="MenuIconSupport-568h.png" width="100" height="100"/>
+        <image name="Menu-568h.png" width="38" height="34"/>
+        <image name="MenuClose-568h.png" width="51" height="51"/>
+    </resources>
+</document>

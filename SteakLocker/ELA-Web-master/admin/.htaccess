@@ -1,0 +1,9 @@
+AuthUserFile /home/steaklockerau/.htpasswd
+AuthName "Please Log In"
+AuthType Basic
+require valid-user
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.steaklocker.steaklocker.ProgressWheel
+        android:id="@+id/progressWheel"
+        android:layout_height="230dp"
+        android:layout_width="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/graphValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#333333"
+            android:text="Days Left" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove From Locker"
+
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:background="#ffff7200"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="270dp" />
+
+</RelativeLayout>

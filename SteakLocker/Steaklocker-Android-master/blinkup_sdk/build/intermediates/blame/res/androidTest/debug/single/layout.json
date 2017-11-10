@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_interstitial.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_interstitial.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_network_list_item.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_network_list_item.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_clear_wifi.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_clear_wifi.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_wifi_select.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_wifi_select.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_wifi_select_header.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_wifi_select_header.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_wps.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_wps.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_legacy_mode.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_legacy_mode.xml"
+    },
+    {
+        "merged": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/res/merged/androidTest/debug/layout/__bu_wifi.xml",
+        "source": "/Users/kevin/Desktop/SteakLocker/Steaklocker-Android-master/blinkup_sdk/build/intermediates/bundles/debug/res/layout/__bu_wifi.xml"
+    }
+]

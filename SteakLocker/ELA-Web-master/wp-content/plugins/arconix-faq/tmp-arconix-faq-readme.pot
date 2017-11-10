@@ -1,0 +1,273 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Arconix FAQ"
+msgstr ""
+
+#. Short description.
+msgid "Arconix FAQ provides an easy way to add FAQ items to your website."
+msgstr ""
+
+#. Screenshot description.
+msgid "Post Type in WordPress navigation list"
+msgstr ""
+
+#. Screenshot description.
+msgid "Post Type Admin display"
+msgstr ""
+
+#. Screenshot description.
+msgid "Grouping and Toggling display"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Post-Type driven"
+msgstr ""
+
+#. Found in description list item.
+msgid "jQuery toggle or accordion display when using the shortcode"
+msgstr ""
+
+#. Found in description list item.
+msgid "Can be displayed individually, or in FAQ groups by using the \"group\" taxonomy"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Add an easy-to-create, stylish FAQ section to your website. Display your frequently asked questions using the supplied shortcode (<code>[faq]</code>) and show/hide them via an animated, jQuery toggle or accordion box.\n"
+"The FAQ's can be displayed in groups by tagging them during the FAQ item's creation. They can also be loaded closed or open, and for long FAQ's, there's a checkbox to add a \"return to top\" link at the bottom."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<a href=\"http://demo.arconixpc.com/arconix-faq\">Live Demo</a>\n"
+"<a href=\"http://arcnx.co/afwiki\">Documentation</a>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "You can download and install Arconix FAQ using the built in WordPress plugin installer. If you download the plugin manually, make sure the files are uploaded to <code>/wp-content/plugins/arconix-faq/</code>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Activate Arconix-FAQ in the \"Plugins\" admin panel using the \"Activate\" link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prepared the plugin for <a href=\"https://make.wordpress.org/plugins/2015/09/01/plugin-translations-on-wordpress-org/\">translations</a> (yay!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Anchor links to group headers are now supported. The format is <code>faq-group-slug</code> -- aka mysite.com/faq/#faq-group-slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow users to now specify a single FAQ for display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug which caused some of the FAQ-specific CSS to be output improperly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug which caused an extra div to be output, breaking some site layouts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a typo when saving/updating FAQ's"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to display the FAQ's in a single list even if groups are in use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FAQ's can now be displayed in a jQuery-powered accordion if desired"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A few other minor backend improvements and fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated plugin to be better integrated with WP 3.8 dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for 'menu order', which allows for custom ordering of FAQ items without the need for another plugin. Supports custom ordering within groups as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other miscellaneous improvements and bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolves a conflict with themes from WooThemes that prevented users from inserting media into the editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes an error with the Return to Top link introduced in 1.3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated toggle script to be compatible with WordPress 3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added another checkbox to the FAQ creation screen which allows the user to set the initial state of the FAQ (closed or open)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For compatibility reasons, the javascript file is loading in the page header as opposed to the footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The dashboard widget will now only load for administrator users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Misc fixes and improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a \"Return to Top\" meta box option for each FAQ. Checking that box will display a link (text overridable via filter) that will return the user to the top of that item"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Supports linking directly to specific FAQ's via the FAQ title. View the <a href=\"http://arcnx.co/afwiki\">documentation</a> for guidance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional CSS classes to each FAQ for increased styling options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filters to allow users to prevent the CSS, JS or dashboard widget from loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored defaults code to make it easier for power users to override defaults setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a \"group\" taxonomy for displaying the FAQ items in groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the CSS with more inline documentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a couple minor bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a critical bug in the shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a display bug which caused all faq's to be loaded before any content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show all FAQs and no longer paginate (overridable in the shortcode)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix broken dashboard widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "version bump to add readme.txt and screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial Release"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed a bug which caused the FAQ Group descriptions to output incorrectly when using the accordion style"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed a FAQ title display bug"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixes a parameter bug that prevented users from restricting the number of FAQ's returned for display"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fix undefined variable bug that would show up when no FAQ groups were used"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Updated the metabox script to the latest release. This resolves some content editor bugs that may pop up in certain configurations."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed a syntax error"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "minor fix to allow the user to specify a FAQ group they'd like to display"
+msgstr ""
+
+#. Found in faq header.
+msgid "Quick and dirty - how do I display my FAQ's?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I enable the accordion display mode?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find more information on how to use the plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The toggle or accordion isn't working. What can I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I need help"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have a great idea for your plugin!"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Visit the <a href=\"http://arcnx.co/afwiki\">documentation</a> for assistance"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Tutorials on advanced plugin usage can be found at <a href=\"http://arconixpc.com/tag/arconix-faq\">Arconix Computers</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the <code>[faq]</code> shortcode in a widget or on a post/page. This will output the FAQ's using the default settings (Ascending order by Title in a Toggle configuration). If you'd like to use a different order, consult the <a href=\"http://arcnx.co/afwiki\">Documentation</a> for assistance."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Add <code>style=\"accordion\"</code> to the shortcode, e.g. <code>[faq style=\"accordion\"]</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"While you can certainly start a thread in the <a href=\"http://arcnx.co/afhelp\">support forum</a>, there are some troubleshooting steps you can take beforehand to help speed up the process.\n"
+"1. Check to make sure the javascripts are loading correctly. Load the faq page in your browser and view your page's source. Look for jQuery and Arconix FAQ JS files there. If you don't see the Arconix FAQ JS file, then your theme's <code>header.php</code> file is likely missing <code>&lt;?php wp_head(); ?&gt;</code>, which is neccessary for the operation of mine and many other plugins.\n"
+"2. Check to make sure only one copy of jQuery is being loaded. Many times conflicts arise when themes or plugins load jQuery incorrectly, causing the script to be loaded multiple times in multiple versions. In order to find the offending item, start by disabling your plugins one by one until you find the problem. If you've disabled all your plugins, try switching to a different them, such as twentyten or twentytwelve to see if the problem is with your theme. Once you've found the problem, contact the developer for assistance getting the issue resolved."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Check out the WordPress <a href=\"http://arcnx.co/afhelp\">support forum</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "That's fantastic! Feel free to open an issue or submit a pull request over at <a href=\"http://arcnx.co/afsource\">Github</a>, or you can contact me through <a href=\"http://arcnx.co/twitter\">Twitter</a>, <a href=\"http://arcnx.co/facebook\">Facebook</a> or my <a href=\"http://arcnx.co/1\">Website</a>"
+msgstr ""

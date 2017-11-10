@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/measurement_graph_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_gravity="left|center"
+    tools:context="com.steaklocker.steaklocker.MeasurementGraphs">
+
+    <ImageView
+        android:id="@+id/dashboardBg"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dashboard_image"
+        />
+
+    <ImageView
+        android:paddingLeft="10dp"
+        android:paddingTop="245dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_header"
+         />
+
+
+    <TextView
+        android:id="@+id/dashboardAgingType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="285dp"
+        android:paddingRight="10dp"
+        android:gravity="right"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text="DRY AGING" />
+
+    <com.steaklocker.steaklocker.ProgressWheel
+        android:id="@+id/progressWheel"
+        android:layout_height="230dp"
+        android:layout_width="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/graphTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="Temperature" />
+
+        <TextView
+            android:id="@+id/graphValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:text="230.0" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

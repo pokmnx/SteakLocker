@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/measurement_graph_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="0dp"
+    tools:context="com.steaklocker.steaklocker.MeasurementGraphs">
+
+    <com.parse.ParseImageView
+        android:id="@+id/tipTrickImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/steak_default"
+        />
+
+        <TextView
+            android:id="@+id/tipTrickTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="#ffff7200"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:gravity="left|top"
+            android:layout_alignParentBottom="true"
+            android:text="Tip Trick"
+            android:minLines="1"
+            android:maxLines="3" />
+</RelativeLayout>

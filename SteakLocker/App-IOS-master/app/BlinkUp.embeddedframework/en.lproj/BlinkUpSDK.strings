@@ -1,0 +1,74 @@
+/* You can use in app parameters along with the localized text by using standard stringWithFormat symbolism such as %@ */
+
+/* Centered in the navigation toolbar */
+"GlobalTitle" = "BlinkUp";
+
+/* At the bottom of each network selection screen. Can be used to provide a status message (such as who is logged in) */
+"GlobalFooter" = "";
+
+/* If an interstitial image is present, this is the UIButton text that when pressed will continue to the flash screen */
+"InterstitialContinue" = "Continue";
+
+/* Shown on the countdown page above the countdown number */
+"PreflashText" = "Point screen at sensor now";
+
+/* UIButton for hiding network password field */
+"WifiDetailHidePassword" = "Hide Password";
+
+/* On details screen (between network information and 'Send BlinkUp' button. Provides instructions letting the user know what to expect after starting the BlinkUp */
+"WifiDetailInstructions" = "After tapping ‘Send BlinkUp’, position the screen as close as possible to the edge of the imp for 10 seconds, or until flashing stops.";
+
+/* UILabel for the wifi network name */
+"WifiDetailNetwork" = "Network";
+
+/* Placeholder for the wifi network name field */
+"WifiDetailNetworkPlaceholder" = "Network Name";
+
+/* UILabel for the network password field */
+"WifiDetailPassword" = "Password";
+
+/* Placeholder for password UITextField */
+"WifiDetailPasswordPlaceholder" = "If Required";
+
+/* UILabel for the switch used to denote if the password will be saved between BlinkUps */
+"WifiDetailRememberPassword" = "Remember password";
+
+/* UIButton text to begin a BlinkUp with the given network information */
+"WifiDetailSendBlinkUp" = "Send BlinkUp";
+
+/* UIButton for showing network password field */
+"WifiDetailShowPassword" = "Show Password";
+
+/* Main screen text in the navigation bar (left side) that causes the BlinkUp screen to exit back to the view controller that presented the BlinkUpController */
+"WifiSettingsCancel" = "Cancel";
+
+/* UITableViewCell text that when tapped will present the flash screen that will clear the network settings of an imp */
+"WifiSettingsClearWirelessConfiguration" = "Clear Wireless Configuration";
+
+/* UITableViewHeader text above the list of available networks to connect to */
+"WifiSettingsConnectADevice" = "Connect a device:";
+
+/* UITableViewCell text that when tapped will present the WPS settings screen for connecting the imp via WPS */
+"WifiSettingsConnectUsingWPS" = "Connect Using WPS";
+
+/* UITableViewHeader text above the table row that is used to clear the network settings on the imp */
+"WifiSettingsDisconnectADevice" = "Disconnect a device:";
+
+/* UILabel in the UITableViewCell of the main network selection screen that allows the user to manually enter a SSID */
+"WifiSettingsOtherNetwork" = "Other Network...";
+
+/* Information below the WpsDetailWPSPIN giving information about WPS and what should be done to the router to prepare it for WPS */
+"WpsDetailInformation" = "To join without using a PIN, press the WPS button on your router and then BlinkUp within 60 seconds.";
+
+/* Instructions shown below the WPSDetailInformation letting the user know what to expect after starting the BlinkUp */
+"WpsDetailInstructions" = "After tapping ‘Send BlinkUp’, position the screen as close as possible to the edge of the imp for 10 seconds, or until flashing stops.";
+
+/* UITableViewCell text that when tapped will start the BlinkUp with the WPS information that was inputted */
+"WpsDetailSendBlinkUp" = "Send Blinkup";
+
+/* UILabel text before the WPS Pin */
+"WpsDetailWPSPIN" = "WPS PIN";
+
+/* Placeholder for the WPS Pin UITextField */
+"WpsDetailWPSPINPlaceholder" = "Optional";
+

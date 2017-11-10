@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.parse.ParseImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="top|fill"
+        android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/ageTypeWarningIcon"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:background="@color/colorWarningBg"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_alignParentRight="true"
+            android:text="!"
+            android:minLines="1"
+            android:maxLines="1" />
+
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|left"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:paddingLeft="110dp"
+        android:paddingRight="50dip" />
+
+    <TextView
+        android:id="@+id/textDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:gravity="center_vertical|left"
+
+        android:paddingLeft="110dip"
+        android:paddingRight="3dip" />
+
+    <TextView
+        android:id="@+id/itemAgingType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDays"
+        android:gravity="center_vertical|left"
+
+        android:paddingLeft="110dip"
+        android:paddingRight="3dip" />
+
+
+</RelativeLayout>

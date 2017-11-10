@@ -1,0 +1,68 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.steaklocker.steaklocker.SetupStartActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="50dp"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/setup_wifi"
+        />
+
+    <TextView
+        android:text="Sync Device"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFF7200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
+
+    <TextView
+        android:text="Great! Now let's sync your device to your new Steak Locker!  After you click the 'Sync' button below, pointer your device's screen to the LED light on your locker and wait for the light to blink green."
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
+
+    <TextView
+        android:text="NOTE: Adjust your screen's brightness to the highest setting and temporarily disable any power saving modes that affect screen brightness."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#ff7200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
+
+
+    <Button android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync"
+        android:layout_marginTop="10dp"
+        android:background="#ffff7200"
+        android:layout_gravity="bottom"
+        android:textColor="#ffffffff" />
+</LinearLayout>
+</ScrollView>

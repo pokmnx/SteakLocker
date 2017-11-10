@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="10dp" android:paddingBottom="5dp"
+        android:paddingLeft="15dp" android:paddingRight="15dp"
+        android:text="Temperature"
+        android:layout_gravity="left" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingTop="5dp" android:paddingBottom="10dp"
+        android:paddingLeft="15dp" android:paddingRight="15dp"
+        android:max="100"
+        android:indeterminate="false"
+        android:progress="1"
+        android:progressDrawable="@drawable/progress_measurement_inactive"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+</RelativeLayout>

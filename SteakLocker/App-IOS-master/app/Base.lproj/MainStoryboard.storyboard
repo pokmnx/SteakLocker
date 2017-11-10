@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="315">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733.0"/>
+    </dependencies>
+    <scenes>
+        <!--class Prefix:identifier View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="SteaklockerViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="NO">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="5" fixedFrame="YES" image="LoginHeader-568h.png">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView contentMode="scaleToFill" id="240" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="175" width="320" height="393"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="242" kind="embed" id="241"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </containerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="252" fixedFrame="YES" image="LoginHeaderLogo-568h.png" autoresizesSubviews="NO">
+                                <rect key="frame" x="51" y="0.0" width="218" height="175"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="theSubView" destination="240" id="name-outlet-240"/>
+                        <outlet property="headerLogo" destination="252" id="name-outlet-252"/>
+                    </connections>
+                    <navigationItem title="Title" id="326" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <scene sceneID="243">
+            <objects>
+                <viewController id="242" sceneMemberID="viewController" customClass="SignInController" autoresizesArchivedViewToFullSize="NO">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="244" autoresizesSubviews="NO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="31" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1"/>
+                                </state>
+                                <state key="highlighted"/>
+                                <state key="selected"/>
+                                <state key="disabled"/>
+                                <connections/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="32" fixedFrame="YES">
+                                <rect key="frame" x="160" y="0.0" width="160" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1"/>
+                                </state>
+                                <state key="highlighted"/>
+                                <state key="selected"/>
+                                <state key="disabled"/>
+                                <connections/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="" borderStyle="none" minimumFontSize="17" id="41" fixedFrame="YES" placeholder="Your Full Name" textAlignment="left">
+                                <rect key="frame" x="50" y="70" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="" borderStyle="none" minimumFontSize="17" id="88" fixedFrame="YES" placeholder="Email Address" textAlignment="left">
+                                <rect key="frame" x="50" y="120" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="" borderStyle="none" minimumFontSize="17" id="91" fixedFrame="YES" placeholder="Password" textAlignment="left">
+                                <rect key="frame" x="50" y="170" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="default" secureTextEntry="YES"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="custom" lineBreakMode="middleTruncation" id="81" fixedFrame="YES" autoresizesSubviews="NO">
+                                <rect key="frame" x="0.0" y="333" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.44705882352941179" blue="0" alpha="1"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="btnAction" destination="81" id="name-outlet-81"/>
+                        <outlet property="inputPassword" destination="91" id="name-outlet-91"/>
+                        <outlet property="inputEmail" destination="88" id="name-outlet-88"/>
+                        <outlet property="inputName" destination="41" id="name-outlet-41"/>
+                        <outlet property="btnSignIn" destination="32" id="name-outlet-32"/>
+                        <outlet property="btnSignUp" destination="31" id="name-outlet-31"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="245" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475" y="167"/>
+        </scene>
+        <scene sceneID="314">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="315" sceneMemberID="viewController" navigationBarHidden="YES" isDesignatedEntryPoint="YES" customClass="NavigationController" storyboardIdentifier="navController" restorationIdentifier="navController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="318">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="327"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="319" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="2"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="LoginHeader-568h.png" width="640" height="350"/>
+        <image name="TextField-568h.png" width="540" height="80"/>
+        <image name="Line-568h.png" width="630" height="1"/>
+        <image name="LoginHeaderLogo-568h.png" width="436" height="100"/>
+        <image name="LoginHeaderLogoBlack-568h@2x" width="436" height="100"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Icon.png" width="114" height="114"/>
+        <image name="Icon-Small-40.png" width="80" height="80"/>
+        <image name="Bull.png" width="389" height="390"/>
+        <image name="Setup-Wifi.png" width="206" height="206"/>
+        <image name="Icon-Email.png" width="100" height="100"/>
+        <image name="Icon-Pass.png" width="100" height="100"/>
+        <image name="Icon-Person.png" width="100" height="100"/>
+        <image name="Icon-Wifi.png" width="100" height="100"/>
+        <image name="SetupComlete.png" width="206" height="206"/>
+        <image name="DashboardDefault.png" width="640" height="600"/>
+        <image name="DownArrow.png" width="72" height="38"/>
+        <image name="DownArrow-568h.png" width="72" height="38"/>
+        <image name="Steak.png" width="247" height="237"/>
+        <image name="SteakFull.png" width="640" height="480"/>
+        <image name="UpArrow-568h.png" width="92" height="92"/>
+        <image name="Components/BTProgressHUD/error.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/error_7.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/success.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/success_7.png" width="28" height="28"/>
+        <image name="Components/BTProgressHUD/xamarin.png" width="28" height="28"/>
+        <image name="MenuIconDashboard-568h.png" width="100" height="100"/>
+        <image name="MenuIconProfile-568h.png" width="100" height="100"/>
+        <image name="MenuIconSettings-568h.png" width="100" height="100"/>
+        <image name="MenuIconSupport-568h.png" width="100" height="100"/>
+    </resources>
+</document>

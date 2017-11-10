@@ -1,0 +1,45 @@
+PODS:
+  - DKScrollingTabController (1.2.1)
+  - EventEmitter (0.1.3)
+  - FastSocket (1.3)
+  - JVFloatLabeledTextField (1.0.2)
+  - macros_blocks (0.0.1)
+  - Realm (2.3.0):
+    - Realm/Headers (= 2.3.0)
+  - Realm/Headers (2.3.0)
+  - SCNetworkReachability (2.0.5):
+    - SCNetworkReachability/Core (= 2.0.5)
+  - SCNetworkReachability/Core (2.0.5):
+    - macros_blocks (= 0.0.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Unirest (1.1.4)
+  - XLForm (3.3.0)
+
+DEPENDENCIES:
+  - DKScrollingTabController
+  - EventEmitter
+  - FastSocket
+  - JVFloatLabeledTextField (= 1.0.2)
+  - Realm (~> 2.3.0)
+  - SCNetworkReachability
+  - SDWebImage
+  - Unirest
+  - XLForm (~> 3.3)
+
+SPEC CHECKSUMS:
+  DKScrollingTabController: 9c9e96af25887eea782f907bb7fb2c0a8d942a7d
+  EventEmitter: f2746478657310620689fa50f4c1b373ee97ee03
+  FastSocket: 0fa2716071517078d67ead1378d34af443bd54c4
+  JVFloatLabeledTextField: 58a3a32cfb800e5b224f676987e7c13abf50a14d
+  macros_blocks: da2106a0975514e16f3669f2f50a02efaff642cf
+  Realm: 69d7de9aa569a11eed490aaabc8f2109e3985ecf
+  SCNetworkReachability: 14026e754d9abb264c157131539e8e2c2131cb62
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
+  XLForm: d5c391dfc62865927b5bcab0a5a0dbfb3e02b0ec
+
+PODFILE CHECKSUM: 70df17db85fe0c79c4be7949c629b2977488237f
+
+COCOAPODS: 1.0.0

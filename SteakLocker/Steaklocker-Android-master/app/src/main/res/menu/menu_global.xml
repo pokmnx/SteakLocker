@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".DashboardActivity">
+
+    <item android:id="@+id/action_add_object" android:title="@string/action_add_object"
+        android:orderInCategory="99"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_dashboard" android:title="@string/action_dashboard"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_objects" android:title="@string/action_objects"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_reports" android:title="@string/action_reports"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/action_tipstricks" android:title="@string/action_tipstricks"
+        android:orderInCategory="103" app:showAsAction="never" />
+
+    <item android:id="@+id/action_profile" android:title="@string/action_profile"
+        android:orderInCategory="104" app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="105" app:showAsAction="never" />
+    <!--item android:id="@+id/action_support" android:title="@string/action_support"
+        android:orderInCategory="105" app:showAsAction="never" /-->
+    <item android:id="@+id/action_logout" android:title="@string/action_logout"
+        android:orderInCategory="107" app:showAsAction="never" />
+</menu>

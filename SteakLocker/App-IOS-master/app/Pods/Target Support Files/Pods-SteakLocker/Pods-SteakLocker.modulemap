@@ -1,0 +1,6 @@
+framework module Pods_SteakLocker {
+  umbrella header "Pods-SteakLocker-umbrella.h"
+
+  export *
+  module * { export * }
+}

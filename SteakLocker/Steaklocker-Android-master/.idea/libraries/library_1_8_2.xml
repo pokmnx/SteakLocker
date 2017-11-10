@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rengwuxian.materialedittext/library/1.8.2/119124eae129062e3a5bdf92c31b1ac42722015/library-1.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+project '../ELA.xcodeproj'
+workspace '../ELA.xcworkspace'
+platform :ios, '8.0'
+use_frameworks!
+target 'SteakLocker' do
+
+pod 'XLForm', '~> 3.3'
+pod 'JVFloatLabeledTextField', '1.0.2', :inhibit_warnings => true
+pod 'Realm', '~> 2.3.0'
+pod 'EventEmitter'
+pod 'SDWebImage'
+pod 'DKScrollingTabController'
+pod 'SCNetworkReachability'
+pod 'FastSocket'
+pod 'EventEmitter'
+pod 'Unirest'
+end

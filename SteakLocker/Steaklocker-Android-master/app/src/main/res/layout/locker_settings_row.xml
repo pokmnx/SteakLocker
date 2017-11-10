@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border"
+    android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/locker_row_name"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/locker_is_active"
+        android:gravity="right"
+        android:textStyle="normal"
+
+        />
+
+
+</TableRow>
